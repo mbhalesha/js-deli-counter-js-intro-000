@@ -1,10 +1,12 @@
 var katzDeli = [];
 
-function takeANumber (katzDeli, name) {
-  var position = katzDeli.length + 1;
-  katzDeli.push(name);
- var response = "Welcome, " + name + ". You are number " + position + " in line.";
-  return response;
+function takeANumber (katzDeli) {
+  //var position = katzDeli.length + 1;
+  let i = 0;
+  i++;
+  katzDeli.push(i);
+// var response = "Welcome, " + ". You are number " + position + " in line.";
+  return i;
 }
 
 function nowServing(katzDeli) {
